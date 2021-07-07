@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MainDiv {
+  width: 100%;
+}
+
+.HeaderDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #74203f;
+  font-weight: 600;
+}
+
+.LeftDiv {
+  display: flex;
+  align-items: center;
+}
+
+.LeftDiv1 {
+  width: 190px;
+}
+
+.LeftDiv2 ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  cursor: pointer;
+}
+
+.LeftDiv2 ul li {
+  padding: 10px 20px;
+  position: relative;
+}
+
+.LeftDiv2 ul li .subMenu {
+  display: none;
+  position: absolute;
+  left: 5%;
+  padding: 0;
+  width: 100%;
+  color: #74203f;
+}
+.LeftDiv2 ul li:hover .subMenu {
+  display: block;
+}
+
+.RightDiv {
+  padding-right: 7px;
+}
+.btn {
+  color: #74203f;
+  cursor: pointer;
+  border: none;
+  background-color: ivory;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.ImgContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AshuuImg {
+  width: 400px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+.AshuuImg img {
+  width: 100%;
+}
+
+.Text {
+  height: 500px;
+  width: 400px;
+  padding-left: 300px;
+  padding-top: 100px;
+}
+
+.Text1 {
+  width: 100%;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: medium;
+}
+
+.StartBlog {
+  border: none;
+  background-color: rgba(236, 62, 91, 0.863);
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.StartBlogdiv {
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+.SecondHeader {
+  background-color: rgb(48, 48, 78);
+  color: ivory;
+}
+
+.Align {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 150px;
+}
+
+.lineOne {
+  font-family: Recoleta, "Noto Serif", Georgia, Times New Roman, Times, serif;
+  width: 100%;
+  font-size: x-large;
+  color: ivory;
+
+  display: flex;
+  justify-content: center;
+}
+.lineTwo {
+  width: 300px;
+}
+.lineTwot {
+  width: 300px;
+}
+.lineTwoth {
+  width: 300px;
+}
+
+.thoughtsMain {
+  width: 100%;
+}
+.Line1 {
+  width: 100%;
+  text-align: center;
+  color: #5f6364;
+}
+
+.ppl {
+  display: flex;
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  justify-content: space-between;
+}
+.thoughtT {
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  width: 500px;
+  padding: 40px 20px;
+  font-weight: 3px;
+  color: #5f6364;
+}
+
+.thoughtTh {
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  width: 500px;
+  padding: 40px 20px;
+  color: #5f6364;
+}
+
+.FreeBox {
+  background-color: rgb(29, 19, 19);
+  display: flex;
+  justify-content: space-betweens;
+}
+.LeftText {
+  color: ivory;
+  width: 300px;
+  padding: 100px 250px;
+  font-size: 25px;
+}
+.LeftText1 {
+  font-size: 15px;
+}
+
+.FreeCard {
+  background-color: #5f6364;
+  width: 300px;
+  height: 220px;
+  margin-top: 150px;
+  border: 1px solid;
+  padding: 1px;
+  box-shadow: 5px 10px #888888;
+}
+
+.FreeText {
+  color: aliceblue;
+}
+
+.GetInPage {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4%;
+}
+.GetInText h1 {
+  font-family: Recoleta, "Noto Serif", Georgia, Times New Roman, Times, serif;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  color: #101517;
+  letter-spacing: 0.2px;
+  font-size: 3.25rem;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.GetInText2 {
+  font-family: Recoleta, "Noto Serif", Georgia, Times New Roman, Times, serif;
+}
+
+.GetInform {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: right;
+  padding-left: 200px;
+}
+.GetInform form input {
+  width: 200%;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.GetInbtn {
+  border: none;
+  background-color: rgba(62, 123, 236, 0.863);
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: 200%;
+}
