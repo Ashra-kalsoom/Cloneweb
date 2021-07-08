@@ -53,6 +53,12 @@ body {
   display: block;
 }
 
+.LeftDiv2 a {
+  text-decoration: none;
+  color: #74203f;
+  margin-top: 0;
+}
+
 .RightDiv {
   padding-right: 7px;
 }
@@ -109,13 +115,17 @@ body {
   padding: 15px 20px;
   border-radius: 5px;
 }
+.StartBlog a {
+  text-decoration: none;
+  color: white;
+}
 .StartBlogdiv {
   padding-left: 80px;
   padding-top: 10px;
 }
 
 .SecondHeader {
-  background-color: rgb(48, 48, 78);
+  background-color: #5f6364;
   color: ivory;
 }
 
@@ -161,15 +171,15 @@ body {
 .thoughtT {
   font-family: "Noto Sans", Helvetica, Arial, sans-serif;
   width: 500px;
-  padding: 40px 20px;
-  font-weight: 3px;
+  padding: 40px 150px;
   color: #5f6364;
+  font-weight: 100;
 }
 
 .thoughtTh {
   font-family: "Noto Sans", Helvetica, Arial, sans-serif;
   width: 500px;
-  padding: 40px 20px;
+  padding: 40px 10px;
   color: #5f6364;
 }
 
@@ -198,8 +208,89 @@ body {
   box-shadow: 5px 10px #888888;
 }
 
-.FreeText {
+.FreeText h2 {
   color: aliceblue;
+  margin: 30px 40px 0 40px;
+}
+.FreeTextp p {
+  color: azure;
+  margin: 0 40px 10px 40px;
+}
+
+.FreeTextp2 p {
+  color: azure;
+  margin: 20px 40px 10px 50px;
+}
+
+.buttonFree {
+  color: ivory;
+  background-color: rgba(255, 68, 99, 0.979);
+  border: none;
+  border-radius: 2px;
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 40px;
+  padding: 7px 30px;
+  cursor: pointer;
+}
+
+.Cards {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(29, 19, 19);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.Cardss {
+  background-color: #fdfdfd;
+  width: 290px;
+  height: 350px;
+  margin-top: 10px;
+  border: 1px solid;
+  padding: 1px;
+  box-shadow: -5px -5px 20px -5px #ffffff;
+  padding-left: 15;
+}
+
+.FreeTextt {
+  color: rgb(0, 0, 0);
+  margin-left: 30px;
+}
+
+.FreeTextpp p {
+  color: rgb(54, 56, 56);
+  margin: 0 40px 10px 38px;
+}
+
+.FreeTextpp2 p {
+  color: rgb(54, 56, 56);
+  margin: 20px 40px 10px 38px;
+}
+
+.Price {
+  color: rgb(54, 56, 56);
+  margin: 20px 40px 0px 38px;
+}
+
+.FreeTextppp p {
+  color: rgb(54, 56, 56);
+  margin: 0px 40px 10px 38px;
+}
+
+.buttonFreeDiff {
+  color: rgb(5, 5, 5);
+  background-color: rgba(68, 255, 239, 0.979);
+  border: none;
+  border-radius: 2px;
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 40px;
+  padding: 7px 30px;
+  cursor: pointer;
+}
+
+.AfterCards {
+  background-color: rgb(29, 19, 19);
 }
 
 .GetInPage {
